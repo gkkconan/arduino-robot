@@ -45,17 +45,17 @@ Nella parte delle note è stata assegnata a ciascuna nota una frequenza, in modo
 Nella parte delle variabili sono presenti le dichiarazioni per ogni servo motore e sensore.
 
 Nel progetto, inoltre, si può notare una parte di *controllo tramite bluetooth*. Sono settati vari comandi grazie ai quali si può comandare il robot in modalità remota connettendolo ad un terminale seriale bluetooth. I **comandi disponibili** sono i seguenti:
-- `a`: alzare/abbassare braccio destro
-- `b`: alzare/abbassare braccio sinistro
+- `a`: alzare/abbassare braccio sinistro
+- `b`: alzare/abbassare braccio destro
 - `c`: alzare/abbassare entrambe le braccia
-- `f`: alzare/abbassare entrambe le braccia simultaneamente
-- `g`: camminare avanti e fermarsi se si stava già camminando
+- `d`: alzare/abbassare entrambe le braccia simultaneamente
+- `e`: camminare avanti e fermarsi se si stava già camminando
+- `f`: camminare indietro e fermarsi se si stava già camminando
+- `g`: girare a sinistra (facendo 5 passi)
+- `h`: girare a destra (facendo 5 passi)
 - `i`: suona la melodia *Happy Birthday*
-- `l`: camminare indietro e fermarsi se si stava già camminando
-- `p`: suona la melodia *We Wish You a Merry Christmas*
-- `n`: girare a sinistra (facendo 5 passi)
-- `o`: girare a destra (facendo 5 passi)
-- `r`: suona la melodia *Never Gonna Give You Up*
+- `j`: suona la melodia *We Wish You a Merry Christmas*
+- `k`: suona la melodia *Never Gonna Give You Up*
 
 ### Features
 - [x] Movimenti

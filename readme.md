@@ -48,17 +48,17 @@ In the variables part there are the declaration for every servo motor and senso
 In the project, furthermore, you can see it s partly controlled through bluetooth.
 Various commands have been set which let you command the robot on remote mode by connecting it to a Bluetooth Serial Terminal.
 The **available commands** are:
-- `a`: raise/lower its right arm
-- `b`: raise/lower its left arm
+- `a`: raise/lower its left arm
+- `b`: raise/lower its right arm
 - `c`: raise/lower both its arms
-- `f`: raise/lower both its arms simultaneously
-- `g`: walking forward and stop if it is already walking
-- `i`: sing “Happy birthday”
-- `l`: walking backwards and stop if it is already walking
-- `p`: sing *We Wish You a Merry Christmas*
-- `n`: turn left (it does 5 steps)
-- `o`: turn right (it does 5 steps)
-- `r`: sing *Never Gonna Give You Up*
+- `d`: raise/lower both its arms simultaneously
+- `e`: walking forward and stop if it's already walking
+- `f`: walking backwards and stop if it's already walking
+- `g`: turn left (it does 5 steps)
+- `h`: turn right (it does 5 steps)
+- `i`: sing *Happy birthday*
+- `j`: sing *We Wish You a Merry Christmas*
+- `k`: sing *Never Gonna Give You Up*
 
 ### Features
 - [x] Moves
