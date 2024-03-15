@@ -29,6 +29,14 @@ Successivamente aprire il file Arduino (con estensione .ino) e consentire, alla 
 
 **P.S.** Per far funzionare MinioBot con i comandi remoti è necessario installare anche un terminale bluetooth seriale (questo è quello da noi usato: [Bluetooth Serial Terminal](https://apps.microsoft.com/detail/9wzdncrdfst8?ocid=pdpshare&hl=en-us&gl=US)).
 
+### Fasi del progetto
+Lo sviluppo del progetto è stato effettuato dividendo in varie fasi la progettazione e in seguito lo sviluppo:
+1. Brainstorming
+2. Stampa e modifica del modello 3D
+3. Assemblaggio dei componenti elettronici e del modello 3D
+4. Programmazione/Sviluppo
+5. Testing
+
 ### Un po' di codice
 Il codice può essere diviso in varie parti principali:
 - importazione librerie
