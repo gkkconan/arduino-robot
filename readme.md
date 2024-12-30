@@ -1,5 +1,5 @@
-## Introduction
-This project is a tiny robot build for educational purposes with the intent of bringing people closer to the fascinating and complex world of robotics.
+## Arduino Robot
+This project is a tiny robot built for educational purposes with the intent of bringing people closer to the fascinating and complex world of robotics.
 This bot can combine the art of 3D printing with the charm of embedded systems.
 
 It is composed by a structure in PLA, a 98.5% recyclable bio-based material ideal for lightness.

@@ -1,4 +1,4 @@
-## Introduzione
+## Arduino Robot
 Questo progetto è un piccolo robot costruito costruito per scopi didattici e con l'intento di avvicinare i ragazzi alla robotica, un campo tanto affascinante quanto complesso.
 Questo robot riesce a combinare l'arte della stampa 3D e il fascino dei sistemi embedded.
 
