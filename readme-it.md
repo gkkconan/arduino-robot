@@ -18,6 +18,27 @@ Il design del suo corpo è stato riadattato per contenere perfettamente sensori 
 - Modello stampato in 3D
 - [IDE di Arduino](https://www.arduino.cc/en/software)
 
+
+## ⚙️ Features
+- [x] Movimenti
+	- [x] alzare/abbassare braccio sinistro
+	- [x] alzare/abbassare braccio destro
+	- [x] alzare/abbassare entrambe le braccia
+	- [x] alzare/abbassare entrambe le braccia simultaneamente
+	- [x] camminare avanti
+	- [x] camminare indietro
+	- [x] girare a sinistra (facendo 5 passi)
+	- [x] girare a destra (facendo 5 passi)
+- [ ] Melodie
+	- [ ] Star Wars Theme
+	- [ ] Tetris Theme
+	- [ ] Pink Panther Theme
+	- [x] Happy Birthday
+	- [x] We Wish You a Merry Christmas
+	- [ ] Fur Elise - Beethoven
+	- [x] Rick Astley - Never Gonna Give You Up
+
+
 ## 🚀 Come usarlo
 Prima di tutto, è indispensabile scaricare ed installare la libreria [Otto DIY Robot per Arduino](https://github.com/OttoDIY/OttoDIYLib) precedentemente citata anche nei requirements. Successivamente è necessario aprire il file .zip, e caricarlo nell'IDE di Arduino secondo questi passaggi: Sketch --> Includi Libreria --> Includi Libreria da file .zip.
 
@@ -53,23 +74,3 @@ Nel progetto, inoltre, si può notare una parte di *controllo tramite bluetooth*
 - `i`: suona la melodia *Happy Birthday*
 - `j`: suona la melodia *We Wish You a Merry Christmas*
 - `k`: suona la melodia *Never Gonna Give You Up*
-
-
-## ⚙️ Features
-- [x] Movimenti
-	- [x] alzare/abbassare braccio sinistro
-	- [x] alzare/abbassare braccio destro
-	- [x] alzare/abbassare entrambe le braccia
-	- [x] alzare/abbassare entrambe le braccia simultaneamente
-	- [x] camminare avanti
-	- [x] camminare indietro
-	- [x] girare a sinistra (facendo 5 passi)
-	- [x] girare a destra (facendo 5 passi)
-- [ ] Melodie
-	- [ ] Star Wars Theme
-	- [ ] Tetris Theme
-	- [ ] Pink Panther Theme
-	- [x] Happy Birthday
-	- [x] We Wish You a Merry Christmas
-	- [ ] Fur Elise - Beethoven
-	- [x] Rick Astley - Never Gonna Give You Up

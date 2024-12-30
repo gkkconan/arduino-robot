@@ -20,6 +20,26 @@ The body was designed to perfectly contain the sensors and avoid small design 
 - [Arduino IDE](https://www.arduino.cc/en/software)
 
 
+## ⚙️ Features
+- [x] Moves
+	- [x] raise/lower its right arm
+	- [x] raise/lower its left arm
+	- [x] raise/lower both its arms
+	- [x] raise/lower both its arms simultaneously
+	- [x] walk forward
+	- [x] walk backwards
+	- [x] turn left (doing 5 steps)
+	- [x] turn right (doing 5 steps)
+- [ ] Melodies
+	- [ ] Star Wars Theme
+	- [ ] Tetris Theme
+	- [ ] Pink Panther Theme
+	- [x] Happy Birthday
+	- [x] We Wish You a Merry Christmas
+	- [ ] Fur Elise - Beethoven
+	- [x] Rick Astley - Never Gonna Give You Up
+
+
 ## 🚀 How to run it
 First, it is essential to download and install the [Otto DIY Robot per Arduino](https://github.com/OttoDIY/OttoDIYLib) library mentioned above in the requirements. Thereafter it is necessary to open the .zip file, upload it into the Arduino IDE following this steps: Sketch --> include library --> include library from .zip file.
 
@@ -57,22 +77,3 @@ The **available commands** are:
 - `i`: sing *Happy birthday*
 - `j`: sing *We Wish You a Merry Christmas*
 - `k`: sing *Never Gonna Give You Up*
-
-## ⚙️ Features
-- [x] Moves
-	- [x] raise/lower its right arm
-	- [x] raise/lower its left arm
-	- [x] raise/lower both its arms
-	- [x] raise/lower both its arms simultaneously
-	- [x] walk forward
-	- [x] walk backwards
-	- [x] turn left (doing 5 steps)
-	- [x] turn right (doing 5 steps)
-- [ ] Melodies
-	- [ ] Star Wars Theme
-	- [ ] Tetris Theme
-	- [ ] Pink Panther Theme
-	- [x] Happy Birthday
-	- [x] We Wish You a Merry Christmas
-	- [ ] Fur Elise - Beethoven
-	- [x] Rick Astley - Never Gonna Give You Up
