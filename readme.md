@@ -1,36 +1,34 @@
-## INTRODUCTION
-Miniobot is a tiny robot build for educational purposes with the intent of bringing people closer to the fascinating and complex world of robotics.
+## Introduction
+This project is a tiny robot build for educational purposes with the intent of bringing people closer to the fascinating and complex world of robotics.
 This bot can combine the art of 3D printing with the charm of embedded systems.
 
 It is composed by a structure in PLA, a 98.5% recyclable bio-based material ideal for lightness.
 It mounts an Arduino Nano microcontroller on an expansion shield which allows it to use additional servo motors and sensors.
 
-Miniobot can move, raise its arms, reproduce sounds and songs, avoid obstacles and much more!
+This robot can move, raise its arms, reproduce sounds and songs, avoid obstacles and much more!
 
 It represents the perfect harmony between education and robotics, programmed in C-like language with the Otto DIY project library.
 The body was designed to perfectly contain the sensors and avoid small design errors previously encountered in the original model.
-All of this gives it a very nice and captivating look, alike the minions from “Despicable me” movie.
 
 
-
-## DETAILED EXPLAINATION
-
-### Requirements
+## 📦 Requirements
 - Arduino Nano (1pz)
 - Expansion Board (1pz)
-- Servo Motors (6pz)
+- Servo Motors
 - Bluetooth Module HC-06
 - 3D printed model
 - [Arduino IDE](https://www.arduino.cc/en/software)
 
-### How to run it
+
+## 🚀 How to run it
 First, it is essential to download and install the [Otto DIY Robot per Arduino](https://github.com/OttoDIY/OttoDIYLib) library mentioned above in the requirements. Thereafter it is necessary to open the .zip file, upload it into the Arduino IDE following this steps: Sketch --> include library --> include library from .zip file.
 
 Then, open the Arduino file (with .ino extension) and allow, to the request, the creation of a dedicated folder.
 
-**P.S.** To make MinioBot work remotely is also necessary to download a bluetooth serial terminal (this is the one we used: [Bluetooth Serial Terminal](https://apps.microsoft.com/detail/9wzdncrdfst8?ocid=pdpshare&hl=en-us&gl=US)).
+**P.S.** To make the robot work remotely is also necessary to download a bluetooth serial terminal (this is the one we used: [Bluetooth Serial Terminal](https://apps.microsoft.com/detail/9wzdncrdfst8?ocid=pdpshare&hl=en-us&gl=US)).
 
-### A bit of code explanation
+
+## 💻 A bit of code explanation
 The code can be subdivided into several main parts:
 - library importing
 - variables and macro declarations
@@ -60,7 +58,7 @@ The **available commands** are:
 - `j`: sing *We Wish You a Merry Christmas*
 - `k`: sing *Never Gonna Give You Up*
 
-### Features
+## ⚙️ Features
 - [x] Moves
 	- [x] raise/lower its right arm
 	- [x] raise/lower its left arm

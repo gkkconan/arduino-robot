@@ -1,43 +1,32 @@
-## INTRODUZIONE
-MinioBot è un piccolo robot costruito costruito per scopi didattici e con l'intento di avvicinare i ragazzi alla robotica, un campo tanto affascinante quanto complesso.
+## Introduzione
+Questo progetto è un piccolo robot costruito costruito per scopi didattici e con l'intento di avvicinare i ragazzi alla robotica, un campo tanto affascinante quanto complesso.
 Questo robot riesce a combinare l'arte della stampa 3D e il fascino dei sistemi embedded.
 
 Esso è composto da una struttura in PLA, ideale per leggerezza e soprattutto è un materiale bio-based e riciclabile per il 98.5%. Al suo interno è dotato del microcontrollore Arduino Nano, montato su una shield d'espansione per dargli la possibilità di collegare più servo motori e sensori.
 
-MinioBot è in grado di muoversi, alzare le braccia, riprodurre suoni e canzoncine, evitare gli ostacoli e molte altre funzionalità.
+Questo robot è in grado di muoversi, alzare le braccia, riprodurre suoni e canzoncine, evitare gli ostacoli e molte altre funzionalità.
 
-Esso rappresenta una perfetta armonia tra didattica e robotica, programmato in like-C con l'ausilio della libreria del progetto Otto DIY.
+Esso rappresenta una perfetta armonia tra didattica e robotica, programmato in C-like con l'ausilio della libreria del progetto Otto DIY.
 Il design del suo corpo è stato riadattato per contenere perfettamente sensori ed evitare piccoli errori di progettazione precedentemente riscontrati dal modello originale.
-Tutto questo gli conferisce un aspetto molto simpatico e accattivante, simile ai minions del film “Cattivissimo me”.
 
 
-
-## SPIEGAZIONE DETTAGLIATA
-
-### Requisiti
+### 📦 Requisiti
 - Arduino Nano (1pz)
 - Scheda d'espansione (1pz)
-- Servo Motori (6pz)
+- Servo Motori
 - Modulo Bluetooth HC-06
 - Modello stampato in 3D
 - [IDE di Arduino](https://www.arduino.cc/en/software)
 
-### Come usarlo
+## 🚀 Come usarlo
 Prima di tutto, è indispensabile scaricare ed installare la libreria [Otto DIY Robot per Arduino](https://github.com/OttoDIY/OttoDIYLib) precedentemente citata anche nei requirements. Successivamente è necessario aprire il file .zip, e caricarlo nell'IDE di Arduino secondo questi passaggi: Sketch --> Includi Libreria --> Includi Libreria da file .zip.
 
 Successivamente aprire il file Arduino (con estensione .ino) e consentire, alla richiesta, la creazione di una cartella dedicata.
 
-**P.S.** Per far funzionare MinioBot con i comandi remoti è necessario installare anche un terminale bluetooth seriale (questo è quello da noi usato: [Bluetooth Serial Terminal](https://apps.microsoft.com/detail/9wzdncrdfst8?ocid=pdpshare&hl=en-us&gl=US)).
+**P.S.** Per far funzionare il robot con i comandi remoti è necessario installare anche un terminale bluetooth seriale (questo è quello da noi usato: [Bluetooth Serial Terminal](https://apps.microsoft.com/detail/9wzdncrdfst8?ocid=pdpshare&hl=en-us&gl=US)).
 
-### Fasi del progetto
-Lo sviluppo del progetto è stato effettuato dividendo in varie fasi la progettazione e in seguito lo sviluppo:
-1. Brainstorming
-2. Stampa e modifica del modello 3D
-3. Assemblaggio dei componenti elettronici e del modello 3D
-4. Programmazione/Sviluppo
-5. Testing
 
-### Un po' di codice
+## 💻 Un po' di codice
 Il codice può essere diviso in varie parti principali:
 - importazione librerie
 - dichiarazione variabili e macro
@@ -65,7 +54,8 @@ Nel progetto, inoltre, si può notare una parte di *controllo tramite bluetooth*
 - `j`: suona la melodia *We Wish You a Merry Christmas*
 - `k`: suona la melodia *Never Gonna Give You Up*
 
-### Features
+
+## ⚙️ Features
 - [x] Movimenti
 	- [x] alzare/abbassare braccio sinistro
 	- [x] alzare/abbassare braccio destro
