@@ -124,40 +124,17 @@ void loop(){
     Serial.println(message);
 
     switch(message){
-      case 'a':
-        move_LeftArm();
-        break;
-      case 'b':
-        move_RigthArm();
-        break;
-      case 'c':
-        bothArms();
-        break;
-      case 'd':
-        fly();
-        break;
-      case 'e':
-        walkForward = !walkForward;
-        onWalkForward();
-        break;
-      case 'f':
-        onWalkBackwards();
-        break;
-      case 'g':
-        TurnLeft();
-        break;
-      case 'h':
-        TurnRight();
-        break;
-      case 'i':
-        HappyBirthday();
-        break;
-      case 'j':
-        WeWishYouAMerryChristmas();
-        break;
-      case 'k':
-        NeverGonnaGiveYouUp();
-        break;
+      case 'a': move_LeftArm(); break;
+      case 'b': move_RigthArm(); break;
+      case 'c': bothArms(); break;
+      case 'd': fly(); break;
+      case 'e': walkForward = !walkForward; onWalkForward(); break;
+      case 'f': onWalkBackwards(); break;
+      case 'g': TurnLeft(); break;
+      case 'h': TurnRight(); break;
+      case 'i': HappyBirthday(); break;
+      case 'j': WeWishYouAMerryChristmas(); break;
+      case 'k': NeverGonnaGiveYouUp(); break;
     }
   }
 }
