@@ -1,6 +1,7 @@
 #include <Otto.h>
 #include <Servo.h>
 #include <SoftwareSerial.h>
+#include "melodies/melodies.c"
 Otto Otto;
 
 
