@@ -2,20 +2,20 @@
 #include <Servo.h>
 #include <SoftwareSerial.h>
 #include "melodies/melodies.c"
+
+//**************************************************
+
 Otto Otto;
-
-
 Servo Servo_6; /* RightArm */
 Servo Servo_7; /* LeftArm */
 Servo Servo_5; /* RightFoot */
 Servo Servo_4; /* LeftFoot */
 
-bool walkForward = false;
-bool walkBackwards = false;
-int Piezo = 13;
-int txPin = 12;
-int rxPin = 11;
 int i = 0;
+int rxPin = 11;
+int txPin = 12;
+int Piezo = 13;
+bool walkForward = false, walkBackwards = false;
 SoftwareSerial bluetooth(rxPin, txPin);
 char message;
 
@@ -27,7 +27,7 @@ char message;
 #define LeftLeg 2
 
 
-//     ALL ROBOT'S MOVES     //
+//**************************************************
 
 void startArms(){
   Servo_6.write(0); delay(100);
@@ -95,10 +95,7 @@ void fly(){
   }
 }
 
-
-//      ARDUINO CODE SECTION
-
-
+//**************************************************
 
 void setup(){
   pinMode(Piezo, OUTPUT);
@@ -112,7 +109,6 @@ void setup(){
   Otto.sing(S_connection);
   Otto.home();
 }
-
 
 
 void loop(){
